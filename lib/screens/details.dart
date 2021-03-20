@@ -19,7 +19,9 @@ class DetailsScreen extends StatelessWidget {
             appBar: AppBar(
               // leading: IconButton(
               //   icon: Icon(Icons.arrow_back, color: Colors.white),
-              //   onPressed: () => Navigator.of(context).pop(),
+              //   onPressed: () {
+              //     Navigator.pop(context);
+              //   },
               // ),
               title: Text('Détails du produit'),
               bottom: TabBar(
