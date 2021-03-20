@@ -17,12 +17,12 @@ class DetailsScreen extends StatelessWidget {
         length: 2,
         child: Scaffold(
             appBar: AppBar(
-              // leading: IconButton(
-              //   icon: Icon(Icons.arrow_back, color: Colors.white),
-              //   onPressed: () {
-              //     Navigator.pop(context);
-              //   },
-              // ),
+              leading: IconButton(
+                icon: Icon(Icons.arrow_back, color: Colors.white),
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+              ),
               title: Text('Détails du produit'),
               bottom: TabBar(
                 tabs: [
